@@ -86,15 +86,7 @@ function update() {
       }
     }
   }
-  
-//   for(let i = 0; i < count-1; i++){
-//     const particleA = particles[i]
-    
-//     for(let j = i + 1; j < count; j++){
-//       const particleB = particles[j]
-//       //repel(particleA, particleB)
-//     }
-//   }
+
   
   for(let i = 0; i < count; i++){
     const particleA = particles[i]
