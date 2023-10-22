@@ -107,22 +107,8 @@ function update() {
   
 }
 
-// function repel(particleA, particleB){
-//   const force = Vector.sub(particleB.position, particleA.position)
-//   const dist = force.mag()
 
-//   if(dist < minDist){
-//     const x = dist - minDist;
-//     force.normalize()
-//     force.mult(-1 * k * x)
-    
-//     particleA.velocity.sub(force)
-//     particleB.velocity.add(force)
-//   }
-// }
 
-// from generative-design book: 
-// https://editor.p5js.org/generative-design/sketches/M_6_1_03
 function repel2(particleA, particleB){
   const force = Vector.sub(particleA.position, particleB.position)
   const dist = force.mag()
