@@ -48,7 +48,7 @@ function resize(){
 
 function create(){
   const color = {
-    h: 250 + Math.floor(Math.random() * 150),
+    h: 200 + Math.floor(Math.random() * 150),
     s: 100,
     l: 70
   };
